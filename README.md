@@ -31,7 +31,7 @@ python3 Day-01-AI-Travel-Guide-Chatbot/chatbot.py
 ## Structure
 
 ```
-100-Days-AI-Challenge/
+AI-Challenge/
 ├── README.md
 ├── .env.example          # template for API keys (copy to .env)
 ├── .gitignore
