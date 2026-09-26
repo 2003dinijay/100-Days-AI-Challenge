@@ -1,4 +1,4 @@
-# 100 Days AI Challenge
+# AI Challenge
 
 One small AI project a day for 100 days. Each project lives in its own folder with its own README and requirements.
 
