@@ -7,6 +7,7 @@ One small AI project a day for 100 days. Each project lives in its own folder wi
 | Day | Project | Description |
 | --- | ------- | ----------- |
 | 01 | [AI Travel Guide Chatbot](Day-01-AI-Travel-Guide-Chatbot/) | Role-play travel-guide chatbot with conversation memory |
+| 02 | [AI Code Commenter](Day-02-AI-Code-Commenter/) | Adds an AI-generated one-line comment above every function in a Python file |
 
 ## Setup
 
@@ -28,15 +29,29 @@ pip install -r Day-01-AI-Travel-Guide-Chatbot/requirements.txt
 python3 Day-01-AI-Travel-Guide-Chatbot/chatbot.py
 ```
 
+Day 02 takes a Python file and writes a `*_commented.py` copy next to it:
+
+```bash
+pip install -r Day-02-AI-Code-Commenter/requirements.txt
+python3 Day-02-AI-Code-Commenter/commenter.py Day-02-AI-Code-Commenter/examples/sample.py
+```
+
 ## Structure
 
 ```
-AI-Challenge/
+100-Days-AI-Challenge/
 ├── README.md
 ├── .env.example          # template for API keys (copy to .env)
 ├── .gitignore
-└── Day-01-AI-Travel-Guide-Chatbot/
+├── Day-01-AI-Travel-Guide-Chatbot/
+│   ├── README.md
+│   ├── chatbot.py
+│   └── requirements.txt
+└── Day-02-AI-Code-Commenter/
     ├── README.md
-    ├── chatbot.py
-    └── requirements.txt
+    ├── commenter.py
+    ├── requirements.txt
+    └── examples/
+        ├── sample.py
+        └── sample_commented.py
 ```
